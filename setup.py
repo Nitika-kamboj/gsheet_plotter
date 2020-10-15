@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="gsheet_plotter-nitika-kamboj
+    name="gsheet_plotter-nitika-kamboj",
     version="0.0.1",
     author="Nitika Kamboj",
     author_email="nitika.kamboj92@gmail.com",
