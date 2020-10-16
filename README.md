@@ -30,15 +30,15 @@ pip install gsheet_plotter
 
 - Click on ```Create Credentials```
 
-![Step2]([![3nIqMv.md.png](https://iili.io/3nIqMv.md.png)](https://freeimage.host/i/3nIqMv))
+![Step2](https://iili.io/3nIqMv.md.png)
 
 - In the dropdown, choose ```Service Account```
 
-![Step3](images/Step3.png)
+![Step3](https://iili.io/3nIslp.md.png)
 
 - Fill in the details, and click on ```Create```
 
-![Step4](images/Step4.png)
+![Step4](https://iili.io/3nIpxs.md.png)
 
 - Click on ```Done```
 
@@ -46,7 +46,7 @@ pip install gsheet_plotter
 
 - Click on the <strong>Edit</strong> icon
 
-![Step5](images/Step5.png)
+![Step5](https://iili.io/3nTqbe.md.png)
 
 - Goto <strong>Keys</strong> on ```Add Key```.
 
@@ -57,15 +57,15 @@ pip install gsheet_plotter
 
   - Instantiate the class by passing Google Service Account json file,Sheet Id found in the Google Sheet URL and the work sheet name
 
-![plot_data](images/initialize.png)
+![Initialize](https://iili.io/3nTwIn.md.png)
 
   - Fetch data from the sheet to a pandas dataframe. The dataframe is saved in the ```data``` attribute.
   
-![plot_data](images/fetch_data.png)
+![plot_data](https://iili.io/3nuw8B.md.png)
 
   - Plot the graph by using two column names
  
-![plot_data](images/plot_data.png)
+![plot_data](https://iili.io/3nABPj.md.png)
 
   - Additional method- Fetch the data and plot the graph in one go by passing the column list 
  
