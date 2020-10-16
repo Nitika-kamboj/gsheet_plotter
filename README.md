@@ -30,7 +30,7 @@ pip install gsheet_plotter
 
 - Click on ```Create Credentials```
 
-![Step2](images/Step2.png)
+![Step2]([![3nIqMv.md.png](https://iili.io/3nIqMv.md.png)](https://freeimage.host/i/3nIqMv))
 
 - In the dropdown, choose ```Service Account```
 
