@@ -22,8 +22,9 @@ Features:
 pip install gsheet_plotter
 ```
 ---
-## Download a credentials file(.json) to allow access to GSheet Plotter to access your spreadsheets.
-- Go to (https://console.developers.google.com)[Google Developer Console] and login with your Google account.
+## Create a credentials file(.json) to allow access to GSheet Plotter to access your spreadsheets.
+- Go to (https://console.developers.google.com) [Google Developer Console] and login with your Google account.
+
 - In the left pane click on ```Credentials```
 
 ![Step1](https://iili.io/3nHAZX.png)
