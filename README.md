@@ -9,15 +9,22 @@ Features:
 - Export graphs in .png
 
 ---
-# Usage:
-
-![plot_data](images/plot_data.png)
 
 # Installation:
 ## Install GSheet Plotter
 ```sh
 pip install gsheet_plotter
 ```
+# Usage:
+# Initialize the library and select the desired Google sheet
+  - Instantiate the class by passing Google Service Account json file,Sheet Id found in the Google Sheet URL and the work sheet name.
+
+![plot_data](images/plot_data.png)
+
+# Other Features
+
+- Go through your data
+![fetch_data](images/fetch_data.png)
 
 ## Download a credentials file(.json) to allow access to GSheet Plotter to access your spreadsheets.
 - Go to (https://console.developers.google.com/)[Google Developer Console] and login with your Google account.
@@ -50,10 +57,7 @@ pip install gsheet_plotter
 - Download the <strong>JSON</strong> file and move to the working directory.
 
 
-# Other Features
 
-- Go through your data
-![fetch_data](images/fetch_data.png)
 
 
 
