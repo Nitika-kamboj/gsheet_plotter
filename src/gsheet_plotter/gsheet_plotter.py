@@ -39,7 +39,7 @@ class GSheetPlotter(object):
         self.sheet_id = sheet_id
         self.tab_name = tab_name
         if not os.path.exists(self.creds):
-            raise(FileNotFoundError)
+            raise(FileNotFoundError("File with path '{}' not found".format(creds)))
         self.sheet = GSheetAPI(self.creds,self.sheet_id,self.tab_name)
         self.data= pd.DataFrame()
 
@@ -92,7 +92,7 @@ class GSheetPlotter(object):
             except KeyError as e:
                 raise(e)
     
-    def fetch_and_plot(self,col_list):
+    def fetch_and_plot_graph(self,col_list):
         """
         Fetches the data from the sheet,converts it to a dataframe.
         Plots the graph between two columns and save it to a .png file.
@@ -110,7 +110,7 @@ class GSheetPlotter(object):
 
         """
         if len(col_list)!=2:
-            raise ValueError("Column list Size is not equal to 2")
+            raise ValueError("Column list size is not equal to 2")
         self.fetch_data(col_list)
         if self.data.empty:
             raise RuntimeError("You have no data to plot.")
@@ -132,4 +132,4 @@ if __name__=='__main__':
     plotter=GSheetPlotter('client_secret.json','1SrZfvr2ee54r7HR1jGtAE9zHIj_Y-UzK9ok8bdwkpqc','Sheet1')
     plotter.fetch_data(col_list=[0,1])
     plotter.plot_graph('timestamp','average_sales')
-    plotter.fetch_and_plot([0,1,2])
+    plotter.fetch_and_plot_graph([0,1,2])
