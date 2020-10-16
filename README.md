@@ -53,7 +53,7 @@ pip install gsheet_plotter
 
 ![plot_data](images/initialize.png)
 
-  - Fetch the data from the sheet to a pandas dataframe by passing the column list
+  - Fetch data from the sheet to a pandas dataframe. The dataframe is saved in the ```data``` attribute.
   
 ![plot_data](images/fetch_data.png)
 
