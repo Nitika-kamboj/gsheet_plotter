@@ -19,7 +19,7 @@ pip install gsheet_plotter
 # Initialize the library and select the desired Google sheet
   - Instantiate the class by passing Google Service Account json file,Sheet Id found in the Google Sheet URL and the work sheet name.
 
-![plot_data](images/plot_data.png)
+![plot_data](images/initialize.png)
 
 # Other Features
 
