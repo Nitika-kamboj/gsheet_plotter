@@ -15,6 +15,7 @@ Usage:
 ## Download a credentials file(.json) to allow access to GSheet Plotter to access your spreadsheets.
 - Go to (https://console.developers.google.com/)[Google Developer Console] and login with your Google account.
 - In the left pane click on ```Credentials```
+
 ![Step1](https://ibb.co/4VkFWjZ)
 
 
