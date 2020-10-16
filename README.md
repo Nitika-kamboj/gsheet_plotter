@@ -9,25 +9,28 @@ Features:
 - Export graphs in .png
 
 ---
-# Usage:
 
-![plot_data](images/plot_data.png)
+# Quick Links to get up and running
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [Available Methods](#Available-methods)
+
 
 # Installation:
 ## Install GSheet Plotter
 ```sh
 pip install gsheet_plotter
 ```
-
+---
 ## Download a credentials file(.json) to allow access to GSheet Plotter to access your spreadsheets.
-- Go to (https://console.developers.google.com/)[Google Developer Console] and login with your Google account.
+- Go to (https://console.developers.google.com)[Google Developer Console] and login with your Google account.
 - In the left pane click on ```Credentials```
 
-![Step1](images/Step1.png)
+![Step1](https://iili.io/3nHAZX.png)
 
 - Click on ```Create Credentials```
 
-![Step2](images/Step2.png)
+![Step2]([![3nIqMv.md.png](https://iili.io/3nIqMv.md.png)](https://freeimage.host/i/3nIqMv))
 
 - In the dropdown, choose ```Service Account```
 
@@ -49,11 +52,34 @@ pip install gsheet_plotter
 
 - Download the <strong>JSON</strong> file and move to the working directory.
 
+---
+# Usage:
 
-# Other Features
+  - Instantiate the class by passing Google Service Account json file,Sheet Id found in the Google Sheet URL and the work sheet name
 
-- Go through your data
-![fetch_data](images/fetch_data.png)
+![plot_data](images/initialize.png)
+
+  - Fetch data from the sheet to a pandas dataframe. The dataframe is saved in the ```data``` attribute.
+  
+![plot_data](images/fetch_data.png)
+
+  - Plot the graph by using two column names
+ 
+![plot_data](images/plot_data.png)
+
+  - Additional method- Fetch the data and plot the graph in one go by passing the column list 
+ 
+![plot_data](images/fetch_and_plot.png)
+
+---
+# Available methods 
+
+![plot_data](images/method_details.png)
+
+
+
+
+
 
 
 
