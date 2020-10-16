@@ -10,6 +10,12 @@ Features:
 
 ---
 
+# Quick Links to get up and running
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [Available Methods](#Available-methods)
+
+
 # Installation:
 ## Install GSheet Plotter
 ```sh
