@@ -16,10 +16,13 @@ Features:
 pip install gsheet_plotter
 ```
 # Usage:
-# Initialize the library and select the desired Google sheet
-  - Instantiate the class by passing Google Service Account json file,Sheet Id found in the Google Sheet URL and the work sheet name.
+
+  - Instantiate the class by passing Google Service Account json file,Sheet Id found in the Google Sheet URL and the work sheet name
 
 ![plot_data](images/initialize.png)
+
+  - Fetch the data from the sheet to a pandas dataframe
+  
 
 # Other Features
 
