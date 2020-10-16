@@ -127,9 +127,3 @@ class GSheetPlotter(object):
             filename= x_col_name + '_' + y_col_name + '.png'
             print("Your graph is saved as {}".format(filename))
             plt.savefig(filename)
-
-if __name__=='__main__':
-    plotter=GSheetPlotter('client_secret.json','1SrZfvr2ee54r7HR1jGtAE9zHIj_Y-UzK9ok8bdwkpqc','Sheet1')
-    plotter.fetch_data(col_list=[0,1])
-    plotter.plot_graph('timestamp','average_sales')
-    plotter.fetch_and_plot_graph([0,1,2])
