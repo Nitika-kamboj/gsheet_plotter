@@ -25,11 +25,12 @@ Usage:
 ![Step3](images/Step3.png)
 - Fill in the details, and click on ```Create```
 ![Step4](images/Step4.png)
-- Click on ```Done``
+- Click on ```Done```
 - Go back to your dashboard and you'll see new credentials added with the information you entered.
 - Click on the <strong>Edit</strong> icon
 ![Step5](images/Step5.png)
 - Goto <strong>Keys</strong> on ```Add Key```.
+
 - Download the <strong>JSON</strong> file and move to the working directory.
 
 
