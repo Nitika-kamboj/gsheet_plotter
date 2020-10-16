@@ -1,2 +1,7 @@
-# GSheet-Plotter
-A visualisation library written in Python to plot your Google Sheets.
+<h1 style="text-align:center">GSheet Plotter</h1>
+
+---
+
+An interface to plot graphs using data from your Google Spreadsheets.
+
+Features
