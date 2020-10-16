@@ -21,14 +21,19 @@ pip install gsheet_plotter
 
 ![plot_data](images/initialize.png)
 
-  - Fetch the data from the sheet to a pandas dataframe
+  - Fetch the data from the sheet to a pandas dataframe by passing the column list
   
+![plot_data](images/fetch_data.png)
 
-# Other Features
+  - Plot the graph by using two column names
+ 
+![plot_data](images/plot_graph.png)
 
-- Go through your data
-![fetch_data](images/fetch_data.png)
+  - Additional method- Fetch the data and plot the graph in one go by passing the column list 
+ 
+![plot_data](images/fetch_and_plot.png)
 
+# Available methods 
 ## Download a credentials file(.json) to allow access to GSheet Plotter to access your spreadsheets.
 - Go to (https://console.developers.google.com/)[Google Developer Console] and login with your Google account.
 - In the left pane click on ```Credentials```
