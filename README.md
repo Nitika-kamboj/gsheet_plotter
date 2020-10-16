@@ -68,12 +68,12 @@ pip install gsheet_plotter
 
   - Additional method- Fetch the data and plot the graph in one go by passing the column list 
  
-![plot_data](images/fetch_and_plot.png)
+![plot_data](https://iili.io/3n5Jj9.png)
 
 ---
 # Available methods 
 
-![plot_data](images/method_details.png)
+![method_dteials](https://iili.io/3nc5xI.png)
 
 
 
